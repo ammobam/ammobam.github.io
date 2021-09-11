@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 모밤러닝
-masthead_title: "1일 1블로깅"
+masthead_title: "모밤러닝"
 url : "https://ammobam.github.io"
 email:
 repository: ammobam/ammobam
@@ -22,8 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+# twitter_username: username
+github_username: ammobam
 minimal_mistakes_skin: mint #default
 search: true
 
@@ -61,34 +61,24 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "모야밤나무"
+  name   : "모밤러닝"
   avatar : "/assets/images/profile.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "배우고 기록하고 공유하기"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://ammobam.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ammobam"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ammobam"
+
 
 defaults:
   # _posts
