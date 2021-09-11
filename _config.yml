@@ -30,11 +30,12 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 6 # 첫페이지에 보여줄 최근 게시물 수 지정
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -78,6 +79,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ammobam"
 
+# Defaults
 
 defaults:
   # _posts
@@ -88,10 +90,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: true # 블로그 댓글 기능
       share: true
       related: true
-  # _pages
+  # _pages # 날짜와 무관한 페이지 작성
   - scope:
       path: "_pages"
       type: pages
