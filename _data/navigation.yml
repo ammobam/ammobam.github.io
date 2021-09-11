@@ -7,3 +7,13 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+sidebar-blog:
+  - title: "Python"
+    url: "/categories/python"
+  - title: "Algorithm"
+    url: "/categories/algorithm"
+  - title: "ML"
+    url: "/categories/ML"
+  - title: "etc"
+    url: "/categories/etc"
