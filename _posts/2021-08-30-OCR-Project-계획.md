@@ -13,14 +13,14 @@ use_math: true
 comments: true
 
 categories:
-  - OCR PRoject
+  - OCR Project
 ---
 
-# OCR Project
+## Repository 
 
-## [🐥프로젝트 수행일지 (click)](ammobam.github.io/)
+- [**이미지 전처리 (Click)**](https://github.com/ammobam/OCR_ElectricityMeter_imgprep)
+- [**안드로이드 앱 (Click)**](https://github.com/ammobam/OCR_ElectricityMeter_android)
 
-## Repository 구조
 ```
 OCR Project
 ├── 📁OCR_ElectricityMeter_imgprep
@@ -30,6 +30,7 @@ OCR Project
 |		└── 📃(🐥추가예정)
 └── 📁OCR_ElectricityMeter_android 
 ```
+
 ## 목차
 
   * [프로젝트 개요](#프로젝트-개요)
@@ -174,4 +175,4 @@ OCR Project
 	- GAN을 이용한 이미지 데이터 생성
 
 7. 문자 인식 모델 개선
-8. 웹 서비스 제작
+8. 앱 서비스 제작
