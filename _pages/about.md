@@ -19,7 +19,7 @@ title: "About"
 - **Database** 📌
 	- Oracle(1), MySQL(1)
 - **Development Tool** 💻
-	- PyCharm, Eclipse, Spyder, Colab, Jupyter, Vscode
+	- PyCharm, Eclipse, Spyder, Colab, Jupyter, VScode
 - **Data Preprocessing** 📌
 	- OpenCV(2), Pandas(2), Numpy(2)
 - **Data Analaysis** 📌
@@ -33,12 +33,14 @@ title: "About"
 
 ## 🚀Project
 
-- [**MachineLearning**]()
+- [**MachineLearning Project**](https://github.com/ammobam/Display_SensorData)
   - 진행기간 : 21-07-15 ~ 21-08-25
   - 데이터 정제, 분석, 모델링, 시각화
-- [**OCR**]()
+
+- [**OCR Project**](https://github.com/ammobam/OCR_ElectricityMeter_imgprep)
   - 진행기간 : 21-08-30 ~ 21-10-06
   - Image Preprocessing
   - Object Detection
   - OCR DeepLearning
+  - Android App (🐥 진행중)
 
