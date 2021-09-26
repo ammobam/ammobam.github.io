@@ -3,9 +3,42 @@ permalink: /about/
 title: "About"
 ---
 
-복습과 공유를 목적으로
-배운 것을 기록하는 개인 블로그 입니다.
+복습과 공유를 목적으로 배운 것을 기록하는 개인 블로그 입니다.
 
-지금은 기계가 1과 0으로 연산할 수 있는 수준으로 
-문제를 명확히 정의하는 것에 대해 관심을 두고 있습니다.
+---
+
+
+## 🚀Skill Set
+
+- **Language** 📌
+	- Python (2), Java (1), R (1)
+- **OS** 💻
+	- Linux
+- **Framework+Library** 📌
+	- Django(1), Flask(1)
+- **Database** 📌
+	- Oracle(1), MySQL(1)
+- **Development Tool** 💻
+	- PyCharm, Eclipse, Spyder, Colab, Jupyter, Vscode
+- **Data Preprocessing** 📌
+	- OpenCV(2), Pandas(2), Numpy(2)
+- **Data Analaysis** 📌
+	- Scikit-learn(2), Keras(2), Tensorflow(2), konlpy(1)
+- **Data Visualization** 📌
+	- Matplotlib(3), Seaborn(2)
+- **ETC** 💻
+	- Git, Slack
+
+---
+
+## 🚀Project
+
+- [**MachineLearning**]()
+  - 진행기간 : 21-07-15 ~ 21-08-25
+  - 데이터 정제, 분석, 모델링, 시각화
+- [**OCR**]()
+  - 진행기간 : 21-08-30 ~ 21-10-06
+  - Image Preprocessing
+  - Object Detection
+  - OCR DeepLearning
 
