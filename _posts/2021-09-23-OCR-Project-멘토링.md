@@ -2,8 +2,8 @@
 title:  "[OCR Project] 멘토링"
 excerpt: "이미지 전처리 및 OCR 모델 훈련 프로젝트 수행일지입니다."
 
-toc: true
-toc_sticky: true
+toc: False
+toc_sticky: False
 toc_label: "주요 목차"
  
 date: 2021-09-23
