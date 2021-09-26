@@ -41,9 +41,7 @@ y2_ = int(y2 + 3*height)
 
 ### ROI 추출 이미지 사례
 
-![ROI추출(1)](..\assets\posting_img\ROI추출(1).JPG){: width="100" height="100"} 
-![ROI추출(2)](..\assets\posting_img\ROI추출(2).JPG){: width="100" height="100"} 
-![ROI추출(3)](..\assets\posting_img\ROI추출(3).JPG){: width="100" height="100"}
+<img src="..\assets\posting_img\ROI추출(1).JPG" alt="ROI추출(1)" style="zoom: 25%;" /> <img src="..\assets\posting_img\ROI추출(2).JPG" alt="ROI추출(2)" style="zoom: 25%;" /> <img src="..\assets\posting_img\ROI추출(3).JPG" alt="ROI추출(3)" style="zoom: 25%;" />
 
 
 
