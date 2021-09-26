@@ -13,7 +13,7 @@ use_math: true
 comments: true
 
 categories:
-	- OCR Project
+  - OCR Project
 ---
 
 ## ROI 추출 수행

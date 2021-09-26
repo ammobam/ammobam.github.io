@@ -13,7 +13,7 @@ use_math: true
 comments: true
 
 categories:
-	- OCR Project
+  - OCR Project
 ---
 
 ## 계량기 영역 도출
