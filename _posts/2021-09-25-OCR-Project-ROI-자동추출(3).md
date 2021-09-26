@@ -6,8 +6,8 @@ toc: true
 toc_sticky: true
 toc_label: "주요 목차"
  
-date: 2021-09-15
-last_modified_at: 2021-09-15
+date: 2021-09-25
+last_modified_at: 2021-09-25
 
 use_math: true
 comments: true
