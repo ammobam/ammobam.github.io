@@ -1,5 +1,5 @@
 ---
-title:  "[OCR Project] ROI 자동 추출(2)"
+title:  "[OCR Project] ROI 자동 추출(3)"
 excerpt: "이미지 전처리 및 OCR 모델 훈련 프로젝트 수행일지입니다."
 
 toc: False
@@ -41,7 +41,7 @@ y2_ = int(y2 + 3*height)
 
 ### ROI 추출 이미지 사례
 
-<img src="..\assets\posting_img\ROI추출(1).JPG" alt="ROI추출(1)" style="zoom: 25%;" /> <img src="..\assets\posting_img\ROI추출(2).JPG" alt="ROI추출(2)" style="zoom: 25%;" /> <img src="..\assets\posting_img\ROI추출(3).JPG" alt="ROI추출(3)" style="zoom: 25%;" />
+<img src="../assets/posting_img/ROI추출(1).JPG" alt="ROI추출(1)" style="zoom: 25%;" /> <img src="..\assets\posting_img\ROI추출(2).JPG" alt="ROI추출(2)" style="zoom: 25%;" /> <img src="..\assets\posting_img\ROI추출(3).JPG" alt="ROI추출(3)" style="zoom: 25%;" />
 
 
 
