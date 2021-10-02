@@ -16,12 +16,12 @@ categories:
   - Coding Interview
 ---
 
-## 문제
+## 🚀 문제
 [코딩테스트 연습 > 탐욕법(Greedy) > 체육복(click)](https://programmers.co.kr/learn/courses/30/lessons/42862?language=python3)
 
 
 
-## 풀이
+## 📌 풀이
 
 ### 아이디어
 
@@ -84,6 +84,7 @@ def solution(n: int, lost, reserve):
                     clothes[i] = 1
 
         # print(clothes)
+    
     # 서로 빌려준 결과, 
     # 각각의 학생이 가진 옷이 0벌인 경우는 0, 0벌이 아닌 경우는 1의 값을 갖도록 하고
     # 그 값을 모두 더하여 반환함
@@ -92,7 +93,7 @@ def solution(n: int, lost, reserve):
 
 
 
-## 결과
+## 📌 결과
 
 | 테스트 1 〉  | 통과 (0.01ms, 10.3MB) |
 | ------------ | --------------------- |
@@ -115,3 +116,51 @@ def solution(n: int, lost, reserve):
 | 테스트 18 〉 | 통과 (0.01ms, 10.3MB) |
 | 테스트 19 〉 | 통과 (0.01ms, 10.3MB) |
 | 테스트 20 〉 | 통과 (0.01ms, 10.3MB) |
+
+
+
+
+
+## 🐥 다른 코드
+
+- 다음은 해당 문제에서 가장 많은 추천을 받은 코드임
+- 시간과 자원 면에서 더 나은 면이 있는지 확인해보기 위해 수행해보았으나, 
+  풀이 후 추가된 것으로 추정되는 테스트 케이스 2개를 통과하지 못함
+- 어떤 테스트 케이스를 통과하지 못했을까? 
+  - r=0, f = -1인 경우도 고려해봤으나 문제되지 않음
+  - 더 고민해보자
+
+```python
+def solution(n, lost, reserve):
+    # 도난당하지 않고 여벌을 가진 학생 리스트 (빌려줄수있음)
+    _reserve = [r for r in reserve if r not in lost]
+    # 도난당하고 여벌도 없는 학생 리스트 (빌려야함)
+    _lost = [l for l in lost if l not in reserve]
+    
+    for r in _reserve:
+        f = r - 1	# 빌려줄 수 있는 학생의 앞번호
+        b = r + 1	# 빌려줄 수 있는 학생의 뒷번호
+        # 앞번호 학생이 빌려야하는 학생인 경우
+        if f in _lost:
+            # 앞번호 학생을 빌려야 할 학생 리스트에서 삭제함 
+            _lost.remove(f)
+        # 뒷번호 학생이 빌려야하는 학생인 경우
+        elif b in _lost:
+            # 빌려야 할 학생 리스트에서 삭제함
+            _lost.remove(b)
+    # 전체 학생 수에서 옷을 빌리지 못한 학생 수를 뺌
+    return n - len(_lost)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
