@@ -135,9 +135,9 @@ def solution(n: int, lost, reserve):
 ```python
 def solution(n, lost, reserve):
     # 도난당하지 않고 여벌을 가진 학생 리스트 (빌려줄수있음)
-    _reserve = sorted[r for r in reserve if r not in lost]	# 📌정렬해줌
+    _reserve = sorted([r for r in reserve if r not in lost])	# 📌정렬해줌
     # 도난당하고 여벌도 없는 학생 리스트 (빌려야함)
-    _lost = sorted[l for l in lost if l not in reserve]		# 📌정렬해줌
+    _lost = sorted([l for l in lost if l not in reserve])		# 📌정렬해줌
     
     for r in _reserve:
         f = r - 1	# 빌려줄 수 있는 학생의 앞번호
