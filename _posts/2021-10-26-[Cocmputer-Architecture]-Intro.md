@@ -1,5 +1,5 @@
 ---
-title:  "[Cocmputer Architecture] Intro"
+title:  "[Computer Architecture] Intro"
 excerpt: "본 게시글은 「한 권으로 읽는 컴퓨터 구조와 프로그래밍」를 바탕으로 작성하였습니다."
 
 toc: true
